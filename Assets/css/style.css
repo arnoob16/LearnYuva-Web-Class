@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.display-pic{
+    height: 200px;
+    border-radius: 100px;
+    border: 4px solid red;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #222;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    /*Same As Above*/
+    padding: 15px 25px 100px 15px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul{
+    list-style: square;
+    padding-left: 50px;
+}
+.teaching{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-color: antiquewhite;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 500px;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+.div-heading{
+    color: yellow;
+    font-weight: 900;
+}
+.experience{
+    padding: 50px;
+}
+.experience h3{
+    color: red;
+    font-size: 2.5em;
+}
+.experience table{
+    border: 3px solid #fff;
+    padding: 15px;
+    width: 500px;
+}
+.experience table tbody tr td:first-child{
+    padding-right: 15px;
+}
+th{
+    font-size: 2em;
+}
+hr{
+    border: 2px solid yellow;
+    width: 100%;
+}
+/*
+a:visited{
+    color: #fca400;
+}*/
