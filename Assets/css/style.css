@@ -1,24 +1,28 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #151515;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .display-pic{
     height: 200px;
     border-radius: 100px;
     border: 4px solid red;
+    background-color: aqua;
 }
 .container{
     width: 80%;
     margin: auto;
-    margin-top: 50px;
     background-color: #222;
     color: #fff;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 25px;
-    padding-bottom: 50px;
-    /*Same As Above*/
-    padding: 15px 25px 100px 15px;
+    padding: 15px 25px;
 }
 a{
     color: aqua;
@@ -79,15 +83,42 @@ ul{
     padding: 15px;
     width: 500px;
 }
-.experience table tbody tr td:first-child{
-    padding-right: 15px;
+.experience tbody {
+    color: red;
 }
 th{
     font-size: 2em;
 }
+
 hr{
     border: 2px solid yellow;
     width: 100%;
+    margin-top: 15px;
+}
+nav{
+    position: relative;
+}
+.navbar{
+    height: 100px;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar .brand{
+    position: absolute;
+    left: 200px;
+}
+.navbar ul li{
+    margin-right: 20px;
 }
 /*
 a:visited{
